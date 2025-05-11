@@ -132,18 +132,18 @@ dmypy.json
 cython_debug/
 
 # Environment variables files - note - Usually you should not commit these files
-# .env
-# .env.dev
-# .env.test
-# .env.prod
+.env
+.env.dev
+.env.test
+.env.prod
 
 # VSCode settings
 .vscode/
 
 # Data files
-# data/raw/
-# etl/data/processed/
-# data/output/
+data/raw/
+etl/data/processed/
+data/output/
 
 # Logs
 logs/
