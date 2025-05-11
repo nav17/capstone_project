@@ -1,10 +1,12 @@
-import requests
+import pandas as pd
 import os
+from api_requests import request_to_api
 
 # Initial API connection
 
-# An endpoint to test on
-url = "https://api.tfl.gov.uk/Line/Route"
+# Base URL for the API
+base_url = "https://api.tfl.gov.uk/Line/Route"
+
 
 # Load API Credentials from .env
 
@@ -16,13 +18,9 @@ params = {
     'app_key': app_key
 }
 
-# API request function
-
-
-def request_to_api(url, params):
-    response = requests.get(url, params=params)
-
-    if response.status_code == 200:
-        print("Connection successful!")
-    else:
-        print("Error:", response.status_code)
+# Make the API request
+route_data = request_to_api(url=base_url, params=params)
+# Save response to DataFrame
+df = pd.DataFrame(route_data)
+df.to_csv("data/route_data.csv")
+print("Data saved to data/route_data.csv")

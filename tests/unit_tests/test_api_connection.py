@@ -14,3 +14,5 @@ def test_request_to_api(url=TEST_URL, params=TEST_PARAMS):
         mock_get.assert_called_with(
             url,
             params=params)
+
+def test_
