@@ -142,9 +142,10 @@ cython_debug/
 .vscode/
 
 # Data files
-data/raw/
-etl/data/processed/
-data/output/
+data/raw/test_file.csv
+data/raw/live_crowding_data.csv
+data/raw/all_lines.csv
+data/raw/all_stations.csv
 
 # Logs
 logs/
