@@ -23,9 +23,9 @@ def response_to_dataframe(data, normalize=False):
 
 
 # Save API response to csv
-def dataframe_to_csv(df, filename):
+def raw_dataframe_to_csv(df, filename):
     df.to_csv(f"data/raw/{filename}.csv")
-    print(f"Data saved to data/{filename}.csv")
+    print(f"Raw data saved to data/{filename}.csv")
     return df
 
 
@@ -35,7 +35,7 @@ def get_lines(base_url, endpoint, params):
     data = request_to_api(url=base_url+endpoint, params=params)
     print("lines collected!")
     df = response_to_dataframe(data)
-    dataframe_to_csv(df, "all_lines")
+    raw_dataframe_to_csv(df, "all_lines")
 
 
 # Get all stations
@@ -46,7 +46,7 @@ def get_all_stations(base_url, endpoint, params):
     df = response_to_dataframe(data["stopPoints"], normalize=True)
     # Only save stations
     df = df[df["stopType"].isin(["NaptanMetroStation", "NaptanRailStation"])]
-    dataframe_to_csv(df, "all_stations")
+    raw_dataframe_to_csv(df, "all_stations")
 
 
 # CROWDING DATA:
@@ -99,7 +99,7 @@ def get_all_static_crowding_data(base_url, endpoint, params):
                 print(f"Failed for {station_id}: {e}")
     print("all static crowding collected")
     crowding_df = pd.concat(dfs)
-    dataframe_to_csv(crowding_df, "static_crowding_data")
+    raw_dataframe_to_csv(crowding_df, "static_crowding_data")
 
 
 # Get live crowding data for all stations
@@ -139,10 +139,10 @@ def get_all_live_crowding_data(base_url, endpoint, params):
                 print(f"Failed for {station_id}: {e}")
     print("all live crowding collected")
     crowding_df = pd.DataFrame(all_live_crowding)
-    dataframe_to_csv(crowding_df, "live_crowding_data")
+    raw_dataframe_to_csv(crowding_df, "live_crowding_data")
 
 
-# Additional functions:
+# # Additional functions:
 # # DELAY DATA:
 # 5. get_all_delays (line_id, severity, reason)
 # DEPARTURE/ARRIVAL BOARDS
