@@ -19,8 +19,8 @@ def test_config():
         "endpoint": "test/endpoint",
         "station_id": "station_id",
         "station_naptan_df": pd.DataFrame({
-            "stationNaptan": ["dayOfWeek", "MON"]
-        }),
+            "stationNaptan": ["001", "002"]
+            }),
         "lines_response": [{"id": "line_id", "name": "line_name"}],
         "stations_response": {
             "stopPoints": [{
@@ -45,7 +45,7 @@ def test_config():
 
 # Test get_lines
 @patch("etl.extract.api_requests.request_to_api")
-@patch("etl.extract.api_requests.dataframe_to_csv")
+@patch("etl.extract.api_requests.raw_dataframe_to_csv")
 def test_get_lines(mock_save, mock_api, test_config):
     mock_api.return_value = test_config["lines_response"]
     get_lines(
@@ -59,7 +59,7 @@ def test_get_lines(mock_save, mock_api, test_config):
 
 # testing get_all_stations with patch
 @patch("etl.extract.api_requests.request_to_api")
-@patch("etl.extract.api_requests.dataframe_to_csv")
+@patch("etl.extract.api_requests.raw_dataframe_to_csv")
 def test_get_all_stations(mock_save, mock_api, test_config):
     mock_api.return_value = test_config["stations_response"]
     get_all_stations(
@@ -87,12 +87,13 @@ def test_get_station_static_crowding_data(mock_request, test_config):
 
 
 # testing get_all_static_crowding_data() for all stations
-@patch("etl.extract.api_requests.pd.read_csv")
+@patch("etl.extract.api_requests.raw_dataframe_to_csv")
 @patch("etl.extract.api_requests.get_station_static_crowding_data")
-@patch("etl.extract.api_requests.dataframe_to_csv")
+@patch("etl.extract.api_requests.pd.read_csv")
 def test_get_all_static_crowding_data(
-        mock_csv, mock_static, mock_save, test_config):
-    mock_csv.return_value = test_config["station_naptan_df"]
+    mock_read_csv, mock_static, mock_save, test_config
+):
+    mock_read_csv.return_value = test_config["station_naptan_df"]
     mock_static.return_value = pd.DataFrame([{
         "stationId": "123", "dayOfWeek": "MON"
     }])
@@ -106,12 +107,13 @@ def test_get_all_static_crowding_data(
 
 
 # testing get_all_live_crowding_data()
-@patch("etl.extract.api_requests.pd.read_csv")
+@patch("etl.extract.api_requests.raw_dataframe_to_csv")
 @patch("etl.extract.api_requests.request_to_api")
-@patch("etl.extract.api_requests.dataframe_to_csv")
+@patch("etl.extract.api_requests.pd.read_csv")
 def test_get_all_live_crowding_data(
-        mock_csv, mock_request, mock_save, test_config):
-    mock_csv.return_value = test_config["station_naptan_df"]
+    mock_read_csv, mock_request, mock_save, test_config
+):
+    mock_read_csv.return_value = test_config["station_naptan_df"]
     mock_request.return_value = test_config["live_crowding_response"]
 
     get_all_live_crowding_data(
