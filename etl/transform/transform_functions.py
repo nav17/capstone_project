@@ -1,4 +1,5 @@
 import pandas as pd
+import json
 
 # line colors sourced from
 # https://content.tfl.gov.uk/tfl-basic-elements-standards-issue-08.pdf
@@ -73,6 +74,7 @@ def transform_live_crowding(file):
     df.columns = ["station_id", "live_crowding_percentage"]
     df["live_crowding_percentage"] = (
         df["live_crowding_percentage"] * 100).round(2)
+    get_last_updated(file)
     return df
 
 
@@ -83,3 +85,14 @@ def merge_stations_live_crowding(stations_file, live_crowding_file):
     merged_df = pd.merge(stations, live_crowding, on="station_id")
     merged_df.rename(columns={"station_id": "id"}, inplace=True)
     transformed_dataframe_to_csv(merged_df, "stations")
+
+
+def get_last_updated(file):
+    df = pd.read_csv(file)
+    if "timeLocal" in df.columns:
+        first_time = df["timeLocal"].dropna().iloc[0]
+    else:
+        first_time = None
+    with open("data/processed/last_updated.json", "w") as file:
+        json.dump({"last_updated": first_time}, file)
+    print(f"Last updated timestamp saved to json: {first_time}")

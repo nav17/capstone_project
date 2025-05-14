@@ -107,6 +107,7 @@ def get_all_live_crowding_data(base_url, endpoint, params):
     stations = pd.read_csv("data/raw/all_stations.csv")
     print("loaded stations")
     all_live_crowding = []
+    skipped = 0
     i = 0
     for station_id in stations["stationNaptan"]:
         i += 1
@@ -118,11 +119,17 @@ def get_all_live_crowding_data(base_url, endpoint, params):
                     url=base_url+endpoint+station_id+"/Live",
                     params=params
                     )
-                station_live_crowding = {
-                    "stationId": station_id,
-                    "live_crowding_percentage": data['percentageOfBaseline']
-                }
-                all_live_crowding.append(station_live_crowding)
+                if data.get("dataAvailable", False):
+                    station_live_crowding = {
+                        "stationId": station_id,
+                        "live_crowding_percentage":
+                            data['percentageOfBaseline'],
+                        "dataAvailable": data['dataAvailable'],
+                        "timeLocal": data['timeLocal']
+                    }
+                    all_live_crowding.append(station_live_crowding)
+                else:
+                    skipped += 1
                 time.sleep(1)
                 extracted = True
             except requests.exceptions.HTTPError as e:
@@ -138,6 +145,7 @@ def get_all_live_crowding_data(base_url, endpoint, params):
             except Exception as e:
                 print(f"Failed for {station_id}: {e}")
     print("all live crowding collected")
+    print(f"skipped {skipped} stations due to unavailable data")
     crowding_df = pd.DataFrame(all_live_crowding)
     raw_dataframe_to_csv(crowding_df, "live_crowding_data")
 
