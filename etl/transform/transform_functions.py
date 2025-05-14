@@ -1,5 +1,4 @@
 import pandas as pd
-import json
 
 # line colors sourced from
 # https://content.tfl.gov.uk/tfl-basic-elements-standards-issue-08.pdf
@@ -70,11 +69,16 @@ def transform_static_crowding(file):
 # transform live crowding data
 def transform_live_crowding(file):
     df = pd.read_csv(file)
-    df = df[["stationId", "live_crowding_percentage"]]
-    df.columns = ["station_id", "live_crowding_percentage"]
+    df = df[["stationId", "live_crowding_percentage", "timeLocal"]]
+    df.columns = ["station_id", "live_crowding_percentage", "timeLocal"]
     df["live_crowding_percentage"] = (
         df["live_crowding_percentage"] * 100).round(2)
-    get_last_updated(file)
+
+    # chat gpt assisted with date and time formatting to match static
+    df["timeLocal"] = pd.to_datetime(df["timeLocal"])
+    df["day_of_week"] = df["timeLocal"].dt.strftime("%a").str.upper()
+    df["last_updated"] = df["timeLocal"].dt.strftime("%H:%M")
+    df.drop(columns=["timeLocal"], inplace=True)
     return df
 
 
@@ -85,14 +89,3 @@ def merge_stations_live_crowding(stations_file, live_crowding_file):
     merged_df = pd.merge(stations, live_crowding, on="station_id")
     merged_df.rename(columns={"station_id": "id"}, inplace=True)
     transformed_dataframe_to_csv(merged_df, "stations")
-
-
-def get_last_updated(file):
-    df = pd.read_csv(file)
-    if "timeLocal" in df.columns:
-        first_time = df["timeLocal"].dropna().iloc[0]
-    else:
-        first_time = None
-    with open("data/processed/last_updated.json", "w") as file:
-        json.dump({"last_updated": first_time}, file)
-    print(f"Last updated timestamp saved to json: {first_time}")

@@ -60,7 +60,9 @@ def load_data():
         "mode": String(20),
         "lat": Float(),
         "lon": Float(),
-        "live_crowding_percentage": Float()
+        "live_crowding_percentage": Float(),
+        "day_of_week": String(10),
+        "last_updated": String(20)
         })
     load_to_db(static_crowding, "nav_static_crowding", dtype={
         "station_id": String(30),
