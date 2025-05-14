@@ -2,7 +2,7 @@ import pandas as pd
 import os
 from sqlalchemy import create_engine
 from dotenv import load_dotenv
-from sqlalchemy.types import String, Float
+from sqlalchemy.types import String, Float, Boolean
 
 load_dotenv(dotenv_path="./.env.dev")
 
@@ -60,6 +60,7 @@ def load_data():
         "mode": String(20),
         "lat": Float(),
         "lon": Float(),
+        "live_data_available": Boolean(),
         "live_crowding_percentage": Float(),
         "day_of_week": String(10),
         "last_updated": String(20)

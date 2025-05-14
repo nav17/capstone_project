@@ -130,6 +130,14 @@ def get_all_live_crowding_data(base_url, endpoint, params):
                     all_live_crowding.append(station_live_crowding)
                 else:
                     skipped += 1
+                    station_live_crowding = {
+                        "stationId": station_id,
+                        "live_crowding_percentage":
+                            None,
+                        "dataAvailable": False,
+                        "timeLocal": None
+                    }
+                    all_live_crowding.append(station_live_crowding)
                 time.sleep(1)
                 extracted = True
             except requests.exceptions.HTTPError as e:

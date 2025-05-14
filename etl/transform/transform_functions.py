@@ -69,10 +69,19 @@ def transform_static_crowding(file):
 # transform live crowding data
 def transform_live_crowding(file):
     df = pd.read_csv(file)
-    df = df[["stationId", "live_crowding_percentage", "timeLocal"]]
-    df.columns = ["station_id", "live_crowding_percentage", "timeLocal"]
-    df["live_crowding_percentage"] = (
-        df["live_crowding_percentage"] * 100).round(2)
+    df = df[[
+        "stationId",
+        "live_crowding_percentage",
+        "dataAvailable",
+        "timeLocal"]]
+    df.columns = [
+        "station_id",
+        "live_crowding_percentage",
+        "live_data_available",
+        "timeLocal"]
+    df.loc[df["live_data_available"], "live_crowding_percentage"] = (
+        df.loc[df["live_data_available"],
+               "live_crowding_percentage"] * 100).round(2)
 
     # chat gpt assisted with date and time formatting to match static
     df["timeLocal"] = pd.to_datetime(df["timeLocal"])
@@ -86,6 +95,6 @@ def transform_live_crowding(file):
 def merge_stations_live_crowding(stations_file, live_crowding_file):
     stations = transform_all_stations(stations_file)
     live_crowding = transform_live_crowding(live_crowding_file)
-    merged_df = pd.merge(stations, live_crowding, on="station_id")
+    merged_df = pd.merge(stations, live_crowding, on="station_id", how="left")
     merged_df.rename(columns={"station_id": "id"}, inplace=True)
     transformed_dataframe_to_csv(merged_df, "stations")
