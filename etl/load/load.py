@@ -48,7 +48,7 @@ def fetch_db_data(query):
         return pd.read_sql(query, conn)
 
 
-def run_load():
+def load_data():
     load_to_db(lines, "nav_lines", dtype={
         "id": String(30),
         "name": String(50),
