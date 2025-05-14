@@ -1,6 +1,7 @@
 import pytest
 import pandas as pd
 from unittest.mock import patch, MagicMock
+from sqlalchemy.types import String
 from etl.load.load import (
     load_to_db,
     fetch_db_data,
@@ -23,6 +24,7 @@ def test_dataframe():
 def mock_db_conn():
     mock_conn = MagicMock()
     mock_engine = MagicMock()
+    mock_engine.to_sql = MagicMock()
     mock_conn.engine = mock_engine
     return mock_conn
 
@@ -32,19 +34,20 @@ def mock_db_conn():
 # testing load_to_db()
 @patch("etl.load.load.get_db_connection")
 @patch("pandas.read_csv")
-def test_load_to_db(
-        mock_read_csv, mock_get_conn, test_dataframe, mock_db_conn):
+@patch("pandas.DataFrame.to_sql")
+def test_load_to_db(mock_to_sql, mock_read_csv, mock_get_conn, test_dataframe,
+                    mock_db_conn):
     mock_read_csv.return_value = test_dataframe
     mock_get_conn.return_value.__enter__.return_value = mock_db_conn
 
     load_to_db("mock.csv", "test_table", dtype={
-        "id": pd.StringDtype(),
-        "name": pd.StringDtype(),
-        "mode": pd.StringDtype()
+        "id": String(30),
+        "name": String(50),
+        "mode": String(20)
     })
 
     mock_read_csv.assert_called_once_with("mock.csv")
-    assert mock_db_conn.engine.to_sql.called
+    mock_to_sql.assert_called_once()
 
 
 # testing fetch_db_data()
