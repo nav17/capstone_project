@@ -1,0 +1,13 @@
+id,name,mode,line_colour
+bakerloo,Bakerloo,tube,#A45A2A
+central,Central,tube,#DA291C
+circle,Circle,tube,#FFCD00
+district,District,tube,#007A33
+elizabeth,Elizabeth line,elizabeth-line,#753BBD
+hammersmith-city,Hammersmith & City,tube,#E89CAE
+jubilee,Jubilee,tube,#7C878E
+metropolitan,Metropolitan,tube,#840B55
+northern,Northern,tube,#000000
+piccadilly,Piccadilly,tube,#10069F
+victoria,Victoria,tube,#00A3E0
+waterloo-city,Waterloo & City,tube,#6ECEB2
