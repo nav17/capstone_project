@@ -29,13 +29,16 @@ def test_config():
             }]
         },
         "crowding_response": {
+            "isFound": True,  # <-- add this
             "daysOfWeek": [
                 {
                     "dayOfWeek": "MON",
-                    "timeBands": [{
-                        "timeBand": "08:00",
-                        "percentageOfCrowding": 0.5
-                    }]
+                    "timeBands": [
+                        {
+                            "timeBand": "08:00",
+                            "percentageOfCrowding": 0.5
+                        }
+                    ]
                 }
             ]
         },

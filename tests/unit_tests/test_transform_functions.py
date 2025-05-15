@@ -47,7 +47,9 @@ def test_live_crowding_data(tmp_path):
     file = tmp_path / "live_crowding.csv"
     df = pd.DataFrame({
         "stationId": ["001"],
-        "live_crowding_percentage": [0.25]
+        "live_crowding_percentage": [0.25],
+        "dataAvailable": [True],
+        "timeLocal": ["2025-05-15 08:11:00"]
     })
     df.to_csv(file, index=False)
     return file
