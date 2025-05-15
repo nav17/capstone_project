@@ -9,11 +9,13 @@ def render_top_10_live():
 
     # SQL query for top 10 live crowding stations
     query = """
-        SELECT name, live_crowding_percentage
+        SELECT name, live_crowding_percentage, last_updated
         FROM c12de.nav_stations
         WHERE live_crowding_percentage IS NOT NULL
     """
     live_crowding_df = fetch_db_data(query)
+
+    oldest = live_crowding_df["last_updated"].min()
 
     sort_options = ["Top 10 Busiest Stations", "Top 10 Least Crowded Stations"]
     sort_order = st.segmented_control(
@@ -34,6 +36,7 @@ def render_top_10_live():
             ).head(10)
         bar_title = "Top 10 Least Crowded Stations"
 
+    st.write(f"Last updated at: {oldest}")
     sorted_df["rank"] = range(1, 11)
 
     st.dataframe(
