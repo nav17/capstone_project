@@ -3,11 +3,16 @@
 This project comprises of an ETL pipeline which extracts static and live crowding data 
 in stations across stations on the London Underground from the TfL API, transforms the raw data 
 and loads the processed data into a PostgreSQL database. The data is then ingested and visualised 
-on a [Streamlit dashboard]().
+on a [Streamlit dashboard](https://london-underground.streamlit.app/).
 
 Data from the Elizabeth Line has been excluded as it is not currently tracked by the API.
 
 The deployed Streamlit dashboard can be found here:
+https://london-underground.streamlit.app/
+
+### Resources
+
+Dataset API: https://api.tfl.gov.uk/
 
 ## Installation
 
@@ -71,6 +76,14 @@ pip install psycopg_binary
 
 ## Overview
 
+### Project Planning
+
+Project planning was done on [Notion](https://www.notion.so/chef/IX-Capstone-Project-1e724cbf3d16801abbd3d830cd3e0966?pvs=4) 
+
+### Database Design
+
+![ERD Diagram](data/img/erd.png)
+
 ### User Stories
 
 - As a commuter, I want to see typical and current crowding levels at my station,
@@ -82,9 +95,6 @@ pip install psycopg_binary
 - As a data engineer, I want to create a full ETL pipeline,
   so that I can gain experience in developing production grade code.
 
-### Resources
-
-Dataset API: https://api.tfl.gov.uk/
 
 ### Optimisation
 
