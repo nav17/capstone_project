@@ -54,12 +54,21 @@ def get_all_stations(base_url, endpoint, params):
 def get_station_static_crowding_data(base_url, endpoint, station_id, params):
     data = request_to_api(url=base_url+endpoint+station_id, params=params)
     time_bands = []
-    for day in data["daysOfWeek"]:
-        day_of_week = day["dayOfWeek"]
-        for time_band in day["timeBands"]:
-            time_band["stationId"] = station_id
-            time_band["dayOfWeek"] = day_of_week
-            time_bands.append(time_band)
+    if data["isFound"] is False:
+        print(f"No crowding data for station: {station_id}")
+        time_bands.append({
+            "timeBand": None,
+            "percentageOfBaseLine": None,
+            "stationId": station_id,
+            "dayOfWeek": None
+        })
+    else:
+        for day in data["daysOfWeek"]:
+            day_of_week = day["dayOfWeek"]
+            for time_band in day["timeBands"]:
+                time_band["stationId"] = station_id
+                time_band["dayOfWeek"] = day_of_week
+                time_bands.append(time_band)
     df = pd.DataFrame(time_bands)
     return df
 

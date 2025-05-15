@@ -12,7 +12,7 @@ base_url = "https://api.tfl.gov.uk/"
 
 # Endpoints
 tube_lines = "Line/Mode/tube,elizabeth-line"
-all_stations = "StopPoint/Mode/tube,elizabeth-line"
+all_stations = "StopPoint/Mode/tube"
 crowding = "crowding/"
 route_line = "Line/"
 route_sequence = "/Route/Sequence/"

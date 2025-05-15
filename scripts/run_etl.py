@@ -4,9 +4,11 @@ from config.env_config import setup_env
 from etl.extract.extract import extract_data
 from etl.transform.transform import transform_data
 from etl.load.load import load_data
+import time
 
 
 def main():
+    start_time = time.time()
     run_env_setup()
 
     print("Extracting data...")
@@ -20,6 +22,11 @@ def main():
     print("Loading data...")
     load_data()
     print("Data loading complete.")
+
+    end_time = time.time()
+    elapsed_time = round(end_time - start_time, 2)
+
+    print(f"ETL run completed in {elapsed_time} seconds")
 
     print(
         f"ETL pipeline run successfully in "
