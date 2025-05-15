@@ -47,7 +47,6 @@ matplotlib-inline==0.1.7
 mccabe==0.7.0
 mirakuru==2.6.0
 narwhals==1.38.2
--e git+https://github.com/nav17/capstone_project.git@5e8ecdba96b4f0249558ae51df3d640dcf3f5975#egg=nav_capstone_project
 nest-asyncio==1.6.0
 numpy==2.2.4
 packaging==24.2
