@@ -20,8 +20,8 @@ elif st.session_state.page == "main":
     st.sidebar.title("Navigation")
     st.sidebar.divider()
     pages = {
-        "Live Crowding": render_top_10_live,
-        "Typical crowding levels by Station": render_station_insights
+        "Live Crowding Analysis": render_top_10_live,
+        "Typical Crowding Levels by Station": render_station_insights
     }
     selected_page = st.sidebar.radio("Go to", list(pages.keys()))
     pages[selected_page]()

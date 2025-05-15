@@ -1,273 +1,273 @@
 id,name,mode,lat,lon,live_crowding_percentage,live_data_available,day_of_week,last_updated
-940GZZBPSUST,Battersea Power Station Underground Station,tube,51.479932,-0.142142,0.3,True,THU,03:01
-940GZZLUACT,Acton Town Underground Station,tube,51.503057,-0.280462,0.79,True,THU,03:01
-940GZZLUACY,Archway Underground Station,tube,51.565478,-0.134819,0.39,True,THU,03:01
-940GZZLUADE,Aldgate East Underground Station,tube,51.515037,-0.072384,0.78,True,THU,03:01
-940GZZLUAGL,Angel Underground Station,tube,51.531788,-0.105919,0.34,True,THU,03:01
-940GZZLUALD,Aldgate Underground Station,tube,51.514246,-0.075689,0.13,True,THU,03:01
-940GZZLUALP,Alperton Underground Station,tube,51.540627,-0.29961,0.0,True,THU,03:01
-940GZZLUAMS,Amersham Underground Station,tube,51.674126,-0.607714,0.98,True,THU,03:01
-940GZZLUASG,Arnos Grove Underground Station,tube,51.616446,-0.133062,1.49,True,THU,03:01
-940GZZLUASL,Arsenal Underground Station,tube,51.558655,-0.107457,0.18,True,THU,03:01
-940GZZLUBBB,Bromley-by-Bow Underground Station,tube,51.524839,-0.011538,0.53,True,THU,03:01
-940GZZLUBBN,Barbican Underground Station,tube,51.520275,-0.097993,0.19,True,THU,03:01
-940GZZLUBDS,Bounds Green Underground Station,tube,51.607034,-0.124235,0.11,True,THU,03:01
-940GZZLUBEC,Becontree Underground Station,tube,51.540331,0.127016,1.47,True,THU,03:01
-940GZZLUBKE,Barkingside Underground Station,tube,51.585689,0.088585,0.0,True,THU,03:01
-940GZZLUBKF,Blackfriars Underground Station,tube,51.511581,-0.103659,0.61,True,THU,03:01
-940GZZLUBKG,Barking Underground Station,tube,51.539321,0.081053,1.47,True,THU,03:01
-940GZZLUBKH,Buckhurst Hill Underground Station,tube,51.626605,0.046757,0.0,True,THU,03:01
-940GZZLUBLG,Bethnal Green Underground Station,tube,51.527222,-0.055506,0.1,True,THU,03:01
-940GZZLUBLM,Balham Underground Station,tube,51.443288,-0.152997,0.0,True,THU,03:01
-940GZZLUBLR,Blackhorse Road Underground Station,tube,51.586919,-0.04115,0.19,True,THU,03:01
-940GZZLUBMY,Bermondsey Underground Station,tube,51.49775,-0.063993,0.0,True,THU,03:01
-940GZZLUBND,Bond Street Underground Station,tube,51.514304,-0.149723,0.26,True,THU,03:01
-940GZZLUBNK,Bank Underground Station,tube,51.513132,-0.090047,0.13,True,THU,03:01
-940GZZLUBOR,Borough Underground Station,tube,51.501199,-0.09337,0.08,True,THU,03:01
-940GZZLUBOS,Boston Manor Underground Station,tube,51.495635,-0.324939,3.76,True,THU,03:01
-940GZZLUBSC,Barons Court Underground Station,tube,51.490311,-0.213427,0.57,True,THU,03:01
-940GZZLUBST,Baker Street Underground Station,tube,51.522883,-0.15713,1.03,True,THU,03:01
-940GZZLUBTK,Burnt Oak Underground Station,tube,51.602774,-0.264048,1.08,True,THU,03:01
-940GZZLUBTX,Brent Cross Underground Station,tube,51.57665,-0.213622,2.71,True,THU,03:01
-940GZZLUBWR,Bow Road Underground Station,tube,51.52694,-0.025128,0.13,True,THU,03:01
-940GZZLUBWT,Bayswater Underground Station,tube,51.512284,-0.187938,2.55,True,THU,03:01
-940GZZLUBXN,Brixton Underground Station,tube,51.462618,-0.114888,0.67,True,THU,03:01
-940GZZLUBZP,Belsize Park Underground Station,tube,51.550311,-0.164648,0.05,True,THU,03:01
-940GZZLUCAL,Chalfont & Latimer Underground Station,tube,51.667985,-0.560689,0.0,True,THU,03:01
-940GZZLUCAR,Caledonian Road Underground Station,tube,51.548519,-0.118493,1.22,True,THU,03:01
-940GZZLUCFM,Chalk Farm Underground Station,tube,51.544118,-0.153388,0.0,True,THU,03:01
-940GZZLUCGN,Covent Garden Underground Station,tube,51.513093,-0.124436,0.46,True,THU,03:01
+940GZZBPSUST,Battersea Power Station Underground Station,tube,51.479932,-0.142142,10.92,True,THU,08:01
+940GZZLUACT,Acton Town Underground Station,tube,51.503057,-0.280462,34.65,True,THU,08:01
+940GZZLUACY,Archway Underground Station,tube,51.565478,-0.134819,27.75,True,THU,08:01
+940GZZLUADE,Aldgate East Underground Station,tube,51.515037,-0.072384,29.27,True,THU,08:01
+940GZZLUAGL,Angel Underground Station,tube,51.531788,-0.105919,31.65,True,THU,08:01
+940GZZLUALD,Aldgate Underground Station,tube,51.514246,-0.075689,11.41,True,THU,08:01
+940GZZLUALP,Alperton Underground Station,tube,51.540627,-0.29961,14.99,True,THU,08:01
+940GZZLUAMS,Amersham Underground Station,tube,51.674126,-0.607714,42.34,True,THU,08:01
+940GZZLUASG,Arnos Grove Underground Station,tube,51.616446,-0.133062,17.66,True,THU,08:01
+940GZZLUASL,Arsenal Underground Station,tube,51.558655,-0.107457,6.33,True,THU,08:01
+940GZZLUBBB,Bromley-by-Bow Underground Station,tube,51.524839,-0.011538,31.59,True,THU,08:01
+940GZZLUBBN,Barbican Underground Station,tube,51.520275,-0.097993,44.39,True,THU,08:01
+940GZZLUBDS,Bounds Green Underground Station,tube,51.607034,-0.124235,30.92,True,THU,08:01
+940GZZLUBEC,Becontree Underground Station,tube,51.540331,0.127016,36.67,True,THU,08:01
+940GZZLUBKE,Barkingside Underground Station,tube,51.585689,0.088585,23.56,True,THU,08:01
+940GZZLUBKF,Blackfriars Underground Station,tube,51.511581,-0.103659,41.2,True,THU,08:01
+940GZZLUBKG,Barking Underground Station,tube,51.539321,0.081053,39.89,True,THU,08:01
+940GZZLUBKH,Buckhurst Hill Underground Station,tube,51.626605,0.046757,33.1,True,THU,08:01
+940GZZLUBLG,Bethnal Green Underground Station,tube,51.527222,-0.055506,35.72,True,THU,08:01
+940GZZLUBLM,Balham Underground Station,tube,51.443288,-0.152997,62.65,True,THU,08:01
+940GZZLUBLR,Blackhorse Road Underground Station,tube,51.586919,-0.04115,44.95,True,THU,08:01
+940GZZLUBMY,Bermondsey Underground Station,tube,51.49775,-0.063993,27.31,True,THU,08:01
+940GZZLUBND,Bond Street Underground Station,tube,51.514304,-0.149723,32.35,True,THU,08:01
+940GZZLUBNK,Bank Underground Station,tube,51.513132,-0.090047,39.95,True,THU,08:01
+940GZZLUBOR,Borough Underground Station,tube,51.501199,-0.09337,41.66,True,THU,08:01
+940GZZLUBOS,Boston Manor Underground Station,tube,51.495635,-0.324939,8.7,True,THU,08:01
+940GZZLUBSC,Barons Court Underground Station,tube,51.490311,-0.213427,35.78,True,THU,08:01
+940GZZLUBST,Baker Street Underground Station,tube,51.522883,-0.15713,36.35,True,THU,08:01
+940GZZLUBTK,Burnt Oak Underground Station,tube,51.602774,-0.264048,27.33,True,THU,08:01
+940GZZLUBTX,Brent Cross Underground Station,tube,51.57665,-0.213622,14.85,True,THU,08:01
+940GZZLUBWR,Bow Road Underground Station,tube,51.52694,-0.025128,28.15,True,THU,08:01
+940GZZLUBWT,Bayswater Underground Station,tube,51.512284,-0.187938,24.64,True,THU,08:01
+940GZZLUBXN,Brixton Underground Station,tube,51.462618,-0.114888,41.98,True,THU,08:01
+940GZZLUBZP,Belsize Park Underground Station,tube,51.550311,-0.164648,23.15,True,THU,08:01
+940GZZLUCAL,Chalfont & Latimer Underground Station,tube,51.667985,-0.560689,23.53,True,THU,08:01
+940GZZLUCAR,Caledonian Road Underground Station,tube,51.548519,-0.118493,18.08,True,THU,08:01
+940GZZLUCFM,Chalk Farm Underground Station,tube,51.544118,-0.153388,18.19,True,THU,08:01
+940GZZLUCGN,Covent Garden Underground Station,tube,51.513093,-0.124436,12.99,True,THU,08:01
 940GZZLUCGT,Canning Town Underground Station,tube,51.513584,0.008322,,False,,
-940GZZLUCHL,Chancery Lane Underground Station,tube,51.518247,-0.111583,0.1,True,THU,03:01
-940GZZLUCHX,Charing Cross Underground Station,tube,51.50741,-0.127277,0.74,True,THU,03:01
-940GZZLUCKS,Cockfosters Underground Station,tube,51.65152,-0.149171,5.96,True,THU,03:01
-940GZZLUCND,Colindale Underground Station,tube,51.595424,-0.249919,0.0,True,THU,03:01
-940GZZLUCPC,Clapham Common Underground Station,tube,51.461742,-0.138317,0.2,True,THU,03:01
-940GZZLUCPK,Canons Park Underground Station,tube,51.607701,-0.294693,0.0,True,THU,03:01
-940GZZLUCPN,Clapham North Underground Station,tube,51.465135,-0.130016,0.0,True,THU,03:01
-940GZZLUCPS,Clapham South Underground Station,tube,51.452654,-0.147582,1.46,True,THU,03:01
-940GZZLUCSD,Colliers Wood Underground Station,tube,51.41816,-0.178086,0.46,True,THU,03:01
-940GZZLUCSM,Chesham Underground Station,tube,51.705208,-0.611247,,False,,
-940GZZLUCST,Cannon Street Underground Station,tube,51.51151,-0.090432,0.24,True,THU,03:01
-940GZZLUCTN,Camden Town Underground Station,tube,51.539292,-0.14274,1.04,True,THU,03:01
-940GZZLUCWL,Chigwell Underground Station,tube,51.617916,0.075041,0.0,True,THU,03:01
-940GZZLUCWP,Chiswick Park Underground Station,tube,51.494627,-0.267972,0.0,True,THU,03:01
-940GZZLUCWR,Canada Water Underground Station,tube,51.497931,-0.049405,0.0,True,THU,03:01
-940GZZLUCXY,Croxley Underground Station,tube,51.647044,-0.441718,0.0,True,THU,03:01
-940GZZLUCYD,Chorleywood Underground Station,tube,51.654358,-0.518461,,False,,
-940GZZLUCYF,Canary Wharf Underground Station,tube,51.503488,-0.018246,0.28,True,THU,03:01
-940GZZLUDBN,Debden Underground Station,tube,51.645386,0.083782,0.22,True,THU,03:01
-940GZZLUDGE,Dagenham East Underground Station,tube,51.544096,0.166017,0.7,True,THU,03:01
-940GZZLUDGY,Dagenham Heathway Underground Station,tube,51.541639,0.147527,,False,,
-940GZZLUDOH,Dollis Hill Underground Station,tube,51.551955,-0.239068,1.71,True,THU,03:01
-940GZZLUEAC,Elephant & Castle Underground Station,tube,51.494536,-0.100606,1.28,True,THU,03:01
-940GZZLUEAE,Eastcote Underground Station,tube,51.576506,-0.397373,0.32,True,THU,03:01
-940GZZLUEAN,East Acton Underground Station,tube,51.516612,-0.247248,,False,,
-940GZZLUEBY,Ealing Broadway Underground Station,tube,51.515017,-0.301457,0.07,True,THU,03:01
-940GZZLUECM,Ealing Common Underground Station,tube,51.51014,-0.288265,0.0,True,THU,03:01
-940GZZLUECT,Earl's Court Underground Station,tube,51.492063,-0.193378,0.33,True,THU,03:01
-940GZZLUEFY,East Finchley Underground Station,tube,51.587131,-0.165012,0.0,True,THU,03:01
-940GZZLUEGW,Edgware Underground Station,tube,51.613653,-0.274928,0.16,True,THU,03:01
-940GZZLUEHM,East Ham Underground Station,tube,51.538948,0.051186,0.38,True,THU,03:01
-940GZZLUEMB,Embankment Underground Station,tube,51.507058,-0.122666,0.5,True,THU,03:01
-940GZZLUEPG,Epping Underground Station,tube,51.69368,0.113767,0.0,True,THU,03:01
-940GZZLUEPK,Elm Park Underground Station,tube,51.549775,0.19864,0.51,True,THU,03:01
-940GZZLUEPY,East Putney Underground Station,tube,51.459205,-0.211,0.0,True,THU,03:01
-940GZZLUERB,Edgware Road (Bakerloo) Underground Station,tube,51.520299,-0.17015,0.47,True,THU,03:01
-940GZZLUERC,Edgware Road (Circle Line) Underground Station,tube,51.519858,-0.167832,0.34,True,THU,03:01
-940GZZLUESQ,Euston Square Underground Station,tube,51.525604,-0.135829,0.03,True,THU,03:01
-940GZZLUEUS,Euston Underground Station,tube,51.527999,-0.133785,0.35,True,THU,03:01
-940GZZLUFBY,Fulham Broadway Underground Station,tube,51.480081,-0.195422,0.17,True,THU,03:01
-940GZZLUFCN,Farringdon Underground Station,tube,51.520252,-0.104913,0.51,True,THU,03:01
-940GZZLUFLP,Fairlop Underground Station,tube,51.595618,0.091004,,False,,
-940GZZLUFPK,Finsbury Park Underground Station,tube,51.564158,-0.106825,0.63,True,THU,03:01
-940GZZLUFYC,Finchley Central Underground Station,tube,51.600921,-0.192527,1.31,True,THU,03:01
-940GZZLUFYR,Finchley Road Underground Station,tube,51.546825,-0.179845,0.13,True,THU,03:01
-940GZZLUGBY,Gunnersbury Underground Station,tube,51.491803,-0.275267,,False,,
-940GZZLUGDG,Goodge Street Underground Station,tube,51.520599,-0.134361,0.2,True,THU,03:01
-940GZZLUGFD,Greenford Underground Station,tube,51.542424,-0.34605,0.54,True,THU,03:01
-940GZZLUGGH,Grange Hill Underground Station,tube,51.613378,0.092066,0.0,True,THU,02:56
-940GZZLUGGN,Golders Green Underground Station,tube,51.572259,-0.194039,1.58,True,THU,03:01
-940GZZLUGHK,Goldhawk Road Underground Station,tube,51.502005,-0.226715,0.0,True,THU,03:01
-940GZZLUGPK,Green Park Underground Station,tube,51.506947,-0.142787,0.35,True,THU,03:01
-940GZZLUGPS,Great Portland Street Underground Station,tube,51.52384,-0.144262,0.83,True,THU,03:01
-940GZZLUGTH,Gants Hill Underground Station,tube,51.576544,0.066185,0.47,True,THU,03:01
-940GZZLUGTR,Gloucester Road Underground Station,tube,51.494316,-0.182658,0.13,True,THU,03:01
-940GZZLUHAI,Highbury & Islington Underground Station,tube,51.54635,-0.103324,0.17,True,THU,03:01
-940GZZLUHAW,Harrow & Wealdstone Underground Station,tube,51.592268,-0.335217,0.34,True,THU,03:01
-940GZZLUHBN,Holborn Underground Station,tube,51.51758,-0.120475,0.94,True,THU,03:01
-940GZZLUHBT,High Barnet Underground Station,tube,51.650541,-0.194298,0.66,True,THU,03:01
-940GZZLUHCH,Hornchurch Underground Station,tube,51.554093,0.219116,0.0,True,THU,03:01
-940GZZLUHCL,Hendon Central Underground Station,tube,51.583301,-0.226424,0.0,True,THU,03:01
-940GZZLUHGD,Hillingdon Underground Station,tube,51.553715,-0.449828,0.0,True,THU,03:01
-940GZZLUHGR,Hanger Lane Underground Station,tube,51.530177,-0.292704,0.0,True,THU,03:06
-940GZZLUHGT,Highgate Underground Station,tube,51.577532,-0.145857,0.11,True,THU,03:06
-940GZZLUHLT,Hainault Underground Station,tube,51.603659,0.093482,0.32,True,THU,03:06
-940GZZLUHNX,Hatton Cross Underground Station,tube,51.466747,-0.423191,6.47,True,THU,03:06
-940GZZLUHOH,Harrow-on-the-Hill Underground Station,tube,51.579195,-0.337225,0.05,True,THU,03:06
-940GZZLUHPC,Hyde Park Corner Underground Station,tube,51.503035,-0.152441,0.17,True,THU,03:06
-940GZZLUHPK,Holland Park Underground Station,tube,51.507143,-0.205679,0.36,True,THU,03:06
-940GZZLUHR4,Heathrow Terminal 4 Underground Station,tube,51.458524,-0.445771,0.0,True,THU,03:06
+940GZZLUCHL,Chancery Lane Underground Station,tube,51.518247,-0.111583,16.13,True,THU,08:01
+940GZZLUCHX,Charing Cross Underground Station,tube,51.50741,-0.127277,31.24,True,THU,08:01
+940GZZLUCKS,Cockfosters Underground Station,tube,51.65152,-0.149171,15.45,True,THU,08:01
+940GZZLUCND,Colindale Underground Station,tube,51.595424,-0.249919,11.43,True,THU,08:01
+940GZZLUCPC,Clapham Common Underground Station,tube,51.461742,-0.138317,41.2,True,THU,08:01
+940GZZLUCPK,Canons Park Underground Station,tube,51.607701,-0.294693,16.21,True,THU,08:01
+940GZZLUCPN,Clapham North Underground Station,tube,51.465135,-0.130016,28.38,True,THU,08:01
+940GZZLUCPS,Clapham South Underground Station,tube,51.452654,-0.147582,55.26,True,THU,08:01
+940GZZLUCSD,Colliers Wood Underground Station,tube,51.41816,-0.178086,33.64,True,THU,08:01
+940GZZLUCSM,Chesham Underground Station,tube,51.705208,-0.611247,20.33,True,THU,08:01
+940GZZLUCST,Cannon Street Underground Station,tube,51.51151,-0.090432,37.9,True,THU,08:01
+940GZZLUCTN,Camden Town Underground Station,tube,51.539292,-0.14274,26.47,True,THU,08:01
+940GZZLUCWL,Chigwell Underground Station,tube,51.617916,0.075041,9.78,True,THU,08:01
+940GZZLUCWP,Chiswick Park Underground Station,tube,51.494627,-0.267972,26.09,True,THU,08:01
+940GZZLUCWR,Canada Water Underground Station,tube,51.497931,-0.049405,28.72,True,THU,08:01
+940GZZLUCXY,Croxley Underground Station,tube,51.647044,-0.441718,26.19,True,THU,08:11
+940GZZLUCYD,Chorleywood Underground Station,tube,51.654358,-0.518461,36.18,True,THU,08:11
+940GZZLUCYF,Canary Wharf Underground Station,tube,51.503488,-0.018246,42.93,True,THU,08:11
+940GZZLUDBN,Debden Underground Station,tube,51.645386,0.083782,28.31,True,THU,08:11
+940GZZLUDGE,Dagenham East Underground Station,tube,51.544096,0.166017,32.77,True,THU,08:11
+940GZZLUDGY,Dagenham Heathway Underground Station,tube,51.541639,0.147527,32.5,True,THU,08:11
+940GZZLUDOH,Dollis Hill Underground Station,tube,51.551955,-0.239068,21.45,True,THU,08:11
+940GZZLUEAC,Elephant & Castle Underground Station,tube,51.494536,-0.100606,38.1,True,THU,08:11
+940GZZLUEAE,Eastcote Underground Station,tube,51.576506,-0.397373,34.28,True,THU,08:11
+940GZZLUEAN,East Acton Underground Station,tube,51.516612,-0.247248,25.6,True,THU,08:11
+940GZZLUEBY,Ealing Broadway Underground Station,tube,51.515017,-0.301457,51.56,True,THU,08:11
+940GZZLUECM,Ealing Common Underground Station,tube,51.51014,-0.288265,21.49,True,THU,08:11
+940GZZLUECT,Earl's Court Underground Station,tube,51.492063,-0.193378,47.34,True,THU,08:11
+940GZZLUEFY,East Finchley Underground Station,tube,51.587131,-0.165012,40.01,True,THU,08:11
+940GZZLUEGW,Edgware Underground Station,tube,51.613653,-0.274928,37.8,True,THU,08:11
+940GZZLUEHM,East Ham Underground Station,tube,51.538948,0.051186,35.43,True,THU,08:11
+940GZZLUEMB,Embankment Underground Station,tube,51.507058,-0.122666,37.98,True,THU,08:11
+940GZZLUEPG,Epping Underground Station,tube,51.69368,0.113767,25.3,True,THU,08:11
+940GZZLUEPK,Elm Park Underground Station,tube,51.549775,0.19864,46.72,True,THU,08:11
+940GZZLUEPY,East Putney Underground Station,tube,51.459205,-0.211,35.04,True,THU,08:11
+940GZZLUERB,Edgware Road (Bakerloo) Underground Station,tube,51.520299,-0.17015,27.12,True,THU,08:11
+940GZZLUERC,Edgware Road (Circle Line) Underground Station,tube,51.519858,-0.167832,29.37,True,THU,08:11
+940GZZLUESQ,Euston Square Underground Station,tube,51.525604,-0.135829,25.93,True,THU,08:11
+940GZZLUEUS,Euston Underground Station,tube,51.527999,-0.133785,45.84,True,THU,08:11
+940GZZLUFBY,Fulham Broadway Underground Station,tube,51.480081,-0.195422,20.52,True,THU,08:11
+940GZZLUFCN,Farringdon Underground Station,tube,51.520252,-0.104913,45.61,True,THU,08:11
+940GZZLUFLP,Fairlop Underground Station,tube,51.595618,0.091004,15.66,True,THU,08:11
+940GZZLUFPK,Finsbury Park Underground Station,tube,51.564158,-0.106825,34.09,True,THU,08:11
+940GZZLUFYC,Finchley Central Underground Station,tube,51.600921,-0.192527,31.06,True,THU,08:11
+940GZZLUFYR,Finchley Road Underground Station,tube,51.546825,-0.179845,34.27,True,THU,08:11
+940GZZLUGBY,Gunnersbury Underground Station,tube,51.491803,-0.275267,37.42,True,THU,08:11
+940GZZLUGDG,Goodge Street Underground Station,tube,51.520599,-0.134361,26.72,True,THU,08:11
+940GZZLUGFD,Greenford Underground Station,tube,51.542424,-0.34605,35.23,True,THU,08:11
+940GZZLUGGH,Grange Hill Underground Station,tube,51.613378,0.092066,16.44,True,THU,08:11
+940GZZLUGGN,Golders Green Underground Station,tube,51.572259,-0.194039,36.71,True,THU,08:11
+940GZZLUGHK,Goldhawk Road Underground Station,tube,51.502005,-0.226715,34.05,True,THU,08:11
+940GZZLUGPK,Green Park Underground Station,tube,51.506947,-0.142787,56.8,True,THU,08:11
+940GZZLUGPS,Great Portland Street Underground Station,tube,51.52384,-0.144262,36.41,True,THU,08:11
+940GZZLUGTH,Gants Hill Underground Station,tube,51.576544,0.066185,44.18,True,THU,08:11
+940GZZLUGTR,Gloucester Road Underground Station,tube,51.494316,-0.182658,33.12,True,THU,08:11
+940GZZLUHAI,Highbury & Islington Underground Station,tube,51.54635,-0.103324,18.55,True,THU,08:11
+940GZZLUHAW,Harrow & Wealdstone Underground Station,tube,51.592268,-0.335217,35.76,True,THU,08:11
+940GZZLUHBN,Holborn Underground Station,tube,51.51758,-0.120475,35.69,True,THU,08:11
+940GZZLUHBT,High Barnet Underground Station,tube,51.650541,-0.194298,34.31,True,THU,08:11
+940GZZLUHCH,Hornchurch Underground Station,tube,51.554093,0.219116,34.47,True,THU,08:11
+940GZZLUHCL,Hendon Central Underground Station,tube,51.583301,-0.226424,32.0,True,THU,08:11
+940GZZLUHGD,Hillingdon Underground Station,tube,51.553715,-0.449828,20.05,True,THU,08:11
+940GZZLUHGR,Hanger Lane Underground Station,tube,51.530177,-0.292704,31.11,True,THU,08:11
+940GZZLUHGT,Highgate Underground Station,tube,51.577532,-0.145857,25.16,True,THU,08:11
+940GZZLUHLT,Hainault Underground Station,tube,51.603659,0.093482,22.04,True,THU,08:11
+940GZZLUHNX,Hatton Cross Underground Station,tube,51.466747,-0.423191,42.8,True,THU,08:11
+940GZZLUHOH,Harrow-on-the-Hill Underground Station,tube,51.579195,-0.337225,35.72,True,THU,08:11
+940GZZLUHPC,Hyde Park Corner Underground Station,tube,51.503035,-0.152441,10.86,True,THU,08:11
+940GZZLUHPK,Holland Park Underground Station,tube,51.507143,-0.205679,23.46,True,THU,08:11
+940GZZLUHR4,Heathrow Terminal 4 Underground Station,tube,51.458524,-0.445771,5.67,True,THU,08:11
 940GZZLUHR5,Heathrow Terminal 5 Underground Station,tube,51.470052,-0.49056,,False,,
-940GZZLUHRC,Heathrow Terminals 2 & 3 Underground Station,tube,51.471235,-0.452265,1.24,True,THU,03:06
-940GZZLUHSC,Hammersmith (H&C Line) Underground Station,tube,51.49339,-0.22503,0.27,True,THU,03:06
+940GZZLUHRC,Heathrow Terminals 2 & 3 Underground Station,tube,51.471235,-0.452265,13.84,True,THU,08:11
+940GZZLUHSC,Hammersmith (H&C Line) Underground Station,tube,51.49339,-0.22503,27.55,True,THU,08:11
 940GZZLUHSD,Hammersmith (Dist&Picc Line) Underground Station,tube,51.4923,-0.22362,,False,,
-940GZZLUHSK,High Street Kensington Underground Station,tube,51.501055,-0.192792,0.8,True,THU,03:06
-940GZZLUHSN,Harlesden Underground Station,tube,51.53631,-0.257883,,False,,
-940GZZLUHTD,Hampstead Underground Station,tube,51.556239,-0.177464,0.68,True,THU,03:06
-940GZZLUHWC,Hounslow Central Underground Station,tube,51.471295,-0.366578,0.0,True,THU,03:06
-940GZZLUHWE,Hounslow East Underground Station,tube,51.473213,-0.356474,0.28,True,THU,03:06
-940GZZLUHWT,Hounslow West Underground Station,tube,51.473469,-0.386544,0.27,True,THU,03:06
-940GZZLUHWY,Holloway Road Underground Station,tube,51.552697,-0.113244,0.96,True,THU,03:06
-940GZZLUICK,Ickenham Underground Station,tube,51.561992,-0.442001,0.0,True,THU,03:06
-940GZZLUKBN,Kilburn Underground Station,tube,51.547183,-0.204248,0.0,True,THU,03:06
-940GZZLUKBY,Kingsbury Underground Station,tube,51.584845,-0.27879,0.0,True,THU,03:06
-940GZZLUKEN,Kenton Underground Station,tube,51.581756,-0.31691,,False,,
-940GZZLUKNB,Knightsbridge Underground Station,tube,51.501669,-0.160508,0.26,True,THU,03:06
-940GZZLUKNG,Kennington Underground Station,tube,51.488337,-0.105963,2.52,True,THU,03:06
+940GZZLUHSK,High Street Kensington Underground Station,tube,51.501055,-0.192792,25.11,True,THU,08:11
+940GZZLUHSN,Harlesden Underground Station,tube,51.53631,-0.257883,25.7,True,THU,08:11
+940GZZLUHTD,Hampstead Underground Station,tube,51.556239,-0.177464,31.24,True,THU,08:11
+940GZZLUHWC,Hounslow Central Underground Station,tube,51.471295,-0.366578,36.57,True,THU,08:11
+940GZZLUHWE,Hounslow East Underground Station,tube,51.473213,-0.356474,30.53,True,THU,08:11
+940GZZLUHWT,Hounslow West Underground Station,tube,51.473469,-0.386544,28.59,True,THU,08:11
+940GZZLUHWY,Holloway Road Underground Station,tube,51.552697,-0.113244,22.93,True,THU,08:11
+940GZZLUICK,Ickenham Underground Station,tube,51.561992,-0.442001,23.49,True,THU,08:11
+940GZZLUKBN,Kilburn Underground Station,tube,51.547183,-0.204248,30.48,True,THU,08:11
+940GZZLUKBY,Kingsbury Underground Station,tube,51.584845,-0.27879,17.95,True,THU,08:11
+940GZZLUKEN,Kenton Underground Station,tube,51.581756,-0.31691,13.18,True,THU,08:11
+940GZZLUKNB,Knightsbridge Underground Station,tube,51.501669,-0.160508,26.18,True,THU,08:11
+940GZZLUKNG,Kennington Underground Station,tube,51.488337,-0.105963,32.37,True,THU,08:11
 940GZZLUKOY,Kensington (Olympia) Underground Station,tube,51.497624,-0.210015,,False,,
-940GZZLUKPK,Kilburn Park Underground Station,tube,51.534979,-0.194232,0.84,True,THU,03:06
-940GZZLUKSH,Kentish Town Underground Station,tube,51.550312,-0.140733,3.95,True,THU,03:06
-940GZZLUKSL,Kensal Green Underground Station,tube,51.530539,-0.225016,,False,,
-940GZZLUKSX,King's Cross St. Pancras Underground Station,tube,51.530663,-0.123194,0.72,True,THU,03:06
-940GZZLUKWG,Kew Gardens Underground Station,tube,51.477058,-0.285241,,False,,
+940GZZLUKPK,Kilburn Park Underground Station,tube,51.534979,-0.194232,48.43,True,THU,08:11
+940GZZLUKSH,Kentish Town Underground Station,tube,51.550312,-0.140733,84.39,True,THU,08:11
+940GZZLUKSL,Kensal Green Underground Station,tube,51.530539,-0.225016,33.31,True,THU,08:11
+940GZZLUKSX,King's Cross St. Pancras Underground Station,tube,51.530663,-0.123194,55.99,True,THU,08:11
+940GZZLUKWG,Kew Gardens Underground Station,tube,51.477058,-0.285241,12.33,True,THU,08:11
 940GZZLULAD,Ladbroke Grove Underground Station,tube,51.517449,-0.210391,,False,,
-940GZZLULBN,Lambeth North Underground Station,tube,51.498808,-0.112315,0.82,True,THU,03:06
-940GZZLULGN,Loughton Underground Station,tube,51.641443,0.055476,0.29,True,THU,03:06
-940GZZLULGT,Lancaster Gate Underground Station,tube,51.511723,-0.175494,0.46,True,THU,03:06
-940GZZLULNB,London Bridge Underground Station,tube,51.505721,-0.088873,0.08,True,THU,03:06
-940GZZLULRD,Latimer Road Underground Station,tube,51.513389,-0.217799,,False,,
-940GZZLULSQ,Leicester Square Underground Station,tube,51.511386,-0.128426,0.21,True,THU,03:06
-940GZZLULVT,Liverpool Street Underground Station,tube,51.517372,-0.083182,0.44,True,THU,03:06
-940GZZLULYN,Leyton Underground Station,tube,51.556589,-0.005523,2.19,True,THU,03:06
-940GZZLULYS,Leytonstone Underground Station,tube,51.568324,0.008194,0.04,True,THU,03:06
-940GZZLUMBA,Marble Arch Underground Station,tube,51.513424,-0.158953,0.36,True,THU,03:06
-940GZZLUMDN,Morden Underground Station,tube,51.402142,-0.194839,0.56,True,THU,03:06
-940GZZLUMED,Mile End Underground Station,tube,51.525122,-0.03364,0.0,True,THU,03:06
-940GZZLUMGT,Moorgate Underground Station,tube,51.518176,-0.088322,0.49,True,THU,03:06
-940GZZLUMHL,Mill Hill East Underground Station,tube,51.608229,-0.209986,0.0,True,THU,03:06
-940GZZLUMMT,Monument Underground Station,tube,51.5107,-0.085969,0.14,True,THU,03:06
-940GZZLUMPK,Moor Park Underground Station,tube,51.629845,-0.432454,0.27,True,THU,03:06
-940GZZLUMRH,Manor House Underground Station,tube,51.570738,-0.096118,0.5,True,THU,03:06
-940GZZLUMSH,Mansion House Underground Station,tube,51.512117,-0.094009,4.25,True,THU,03:06
-940GZZLUMTC,Mornington Crescent Underground Station,tube,51.534679,-0.138789,0.0,True,THU,03:06
-940GZZLUMVL,Maida Vale Underground Station,tube,51.529777,-0.185758,0.52,True,THU,03:06
-940GZZLUMYB,Marylebone Underground Station,tube,51.522322,-0.163207,0.13,True,THU,03:06
-940GZZLUNAN,North Acton Underground Station,tube,51.523524,-0.259755,0.21,True,THU,03:06
-940GZZLUNBP,Newbury Park Underground Station,tube,51.575726,0.090004,0.0,True,THU,03:06
-940GZZLUNDN,Neasden Underground Station,tube,51.553986,-0.249837,0.46,True,THU,03:06
-940GZZLUNEN,North Ealing Underground Station,tube,51.517505,-0.288868,1.73,True,THU,03:06
-940GZZLUNFD,Northfields Underground Station,tube,51.499319,-0.314719,1.87,True,THU,03:06
-940GZZLUNGW,North Greenwich Underground Station,tube,51.50047,0.004287,0.18,True,THU,03:06
-940GZZLUNHA,North Harrow Underground Station,tube,51.584872,-0.362408,0.0,True,THU,03:06
-940GZZLUNHG,Notting Hill Gate Underground Station,tube,51.509128,-0.196104,0.49,True,THU,03:06
-940GZZLUNHT,Northolt Underground Station,tube,51.548236,-0.368699,2.24,True,THU,03:06
-940GZZLUNKP,Northwick Park Underground Station,tube,51.578481,-0.318056,0.75,True,THU,03:06
-940GZZLUNOW,Northwood Underground Station,tube,51.611053,-0.423829,0.0,True,THU,03:06
-940GZZLUNWH,Northwood Hills Underground Station,tube,51.600572,-0.409464,0.0,True,THU,03:06
-940GZZLUNWY,North Wembley Underground Station,tube,51.562551,-0.304,3.98,True,THU,03:06
-940GZZLUOAK,Oakwood Underground Station,tube,51.647726,-0.132182,1.9,True,THU,03:06
-940GZZLUODS,Old Street Underground Station,tube,51.525864,-0.08777,0.31,True,THU,03:06
-940GZZLUOSY,Osterley Underground Station,tube,51.481274,-0.352224,0.0,True,THU,03:06
-940GZZLUOVL,Oval Underground Station,tube,51.48185,-0.112439,,False,,
-940GZZLUOXC,Oxford Circus Underground Station,tube,51.515224,-0.141903,0.25,True,THU,03:06
-940GZZLUPAC,Paddington Underground Station,tube,51.516581,-0.175689,0.44,True,THU,03:06
-940GZZLUPAH,Paddington (H&C Line)-Underground,tube,51.518187,-0.178306,0.09,True,THU,03:06
-940GZZLUPCC,Piccadilly Circus Underground Station,tube,51.51005,-0.133798,0.34,True,THU,03:06
+940GZZLULBN,Lambeth North Underground Station,tube,51.498808,-0.112315,18.43,True,THU,08:11
+940GZZLULGN,Loughton Underground Station,tube,51.641443,0.055476,40.36,True,THU,08:11
+940GZZLULGT,Lancaster Gate Underground Station,tube,51.511723,-0.175494,18.21,True,THU,08:11
+940GZZLULNB,London Bridge Underground Station,tube,51.505721,-0.088873,41.3,True,THU,08:11
+940GZZLULRD,Latimer Road Underground Station,tube,51.513389,-0.217799,27.02,True,THU,08:11
+940GZZLULSQ,Leicester Square Underground Station,tube,51.511386,-0.128426,22.35,True,THU,08:11
+940GZZLULVT,Liverpool Street Underground Station,tube,51.517372,-0.083182,45.81,True,THU,08:11
+940GZZLULYN,Leyton Underground Station,tube,51.556589,-0.005523,18.24,True,THU,08:11
+940GZZLULYS,Leytonstone Underground Station,tube,51.568324,0.008194,33.3,True,THU,08:11
+940GZZLUMBA,Marble Arch Underground Station,tube,51.513424,-0.158953,20.12,True,THU,08:11
+940GZZLUMDN,Morden Underground Station,tube,51.402142,-0.194839,34.62,True,THU,08:11
+940GZZLUMED,Mile End Underground Station,tube,51.525122,-0.03364,58.0,True,THU,08:11
+940GZZLUMGT,Moorgate Underground Station,tube,51.518176,-0.088322,46.38,True,THU,08:11
+940GZZLUMHL,Mill Hill East Underground Station,tube,51.608229,-0.209986,24.31,True,THU,08:11
+940GZZLUMMT,Monument Underground Station,tube,51.5107,-0.085969,46.91,True,THU,08:11
+940GZZLUMPK,Moor Park Underground Station,tube,51.629845,-0.432454,23.51,True,THU,08:11
+940GZZLUMRH,Manor House Underground Station,tube,51.570738,-0.096118,20.78,True,THU,08:11
+940GZZLUMSH,Mansion House Underground Station,tube,51.512117,-0.094009,28.22,True,THU,08:11
+940GZZLUMTC,Mornington Crescent Underground Station,tube,51.534679,-0.138789,18.47,True,THU,08:11
+940GZZLUMVL,Maida Vale Underground Station,tube,51.529777,-0.185758,48.56,True,THU,08:11
+940GZZLUMYB,Marylebone Underground Station,tube,51.522322,-0.163207,42.71,True,THU,08:11
+940GZZLUNAN,North Acton Underground Station,tube,51.523524,-0.259755,30.08,True,THU,08:11
+940GZZLUNBP,Newbury Park Underground Station,tube,51.575726,0.090004,26.84,True,THU,08:11
+940GZZLUNDN,Neasden Underground Station,tube,51.553986,-0.249837,31.57,True,THU,08:11
+940GZZLUNEN,North Ealing Underground Station,tube,51.517505,-0.288868,19.91,True,THU,08:11
+940GZZLUNFD,Northfields Underground Station,tube,51.499319,-0.314719,15.56,True,THU,08:11
+940GZZLUNGW,North Greenwich Underground Station,tube,51.50047,0.004287,12.91,True,THU,08:11
+940GZZLUNHA,North Harrow Underground Station,tube,51.584872,-0.362408,30.37,True,THU,08:11
+940GZZLUNHG,Notting Hill Gate Underground Station,tube,51.509128,-0.196104,32.96,True,THU,08:11
+940GZZLUNHT,Northolt Underground Station,tube,51.548236,-0.368699,36.97,True,THU,08:11
+940GZZLUNKP,Northwick Park Underground Station,tube,51.578481,-0.318056,31.42,True,THU,08:11
+940GZZLUNOW,Northwood Underground Station,tube,51.611053,-0.423829,35.07,True,THU,08:11
+940GZZLUNWH,Northwood Hills Underground Station,tube,51.600572,-0.409464,28.78,True,THU,08:11
+940GZZLUNWY,North Wembley Underground Station,tube,51.562551,-0.304,28.53,True,THU,08:11
+940GZZLUOAK,Oakwood Underground Station,tube,51.647726,-0.132182,27.23,True,THU,08:11
+940GZZLUODS,Old Street Underground Station,tube,51.525864,-0.08777,39.72,True,THU,08:11
+940GZZLUOSY,Osterley Underground Station,tube,51.481274,-0.352224,14.2,True,THU,08:11
+940GZZLUOVL,Oval Underground Station,tube,51.48185,-0.112439,21.31,True,THU,08:11
+940GZZLUOXC,Oxford Circus Underground Station,tube,51.515224,-0.141903,36.67,True,THU,08:11
+940GZZLUPAC,Paddington Underground Station,tube,51.516581,-0.175689,48.03,True,THU,08:11
+940GZZLUPAH,Paddington (H&C Line)-Underground,tube,51.518187,-0.178306,17.96,True,THU,08:11
+940GZZLUPCC,Piccadilly Circus Underground Station,tube,51.51005,-0.133798,19.65,True,THU,08:11
 940GZZLUPCO,Pimlico Underground Station,tube,51.489097,-0.133761,,False,,
-940GZZLUPKR,Park Royal Underground Station,tube,51.527123,-0.284341,1.58,True,THU,03:06
-940GZZLUPLW,Plaistow Underground Station,tube,51.531341,0.017451,0.37,True,THU,03:06
-940GZZLUPNR,Pinner Underground Station,tube,51.592901,-0.381161,0.27,True,THU,03:06
-940GZZLUPRD,Preston Road Underground Station,tube,51.571972,-0.295107,1.36,True,THU,03:06
-940GZZLUPSG,Parsons Green Underground Station,tube,51.475277,-0.20117,0.97,True,THU,03:06
-940GZZLUPVL,Perivale Underground Station,tube,51.536717,-0.323446,0.0,True,THU,03:01
-940GZZLUPYB,Putney Bridge Underground Station,tube,51.468262,-0.208731,0.0,True,THU,03:01
-940GZZLUQBY,Queensbury Underground Station,tube,51.594188,-0.286219,0.04,True,THU,03:06
-940GZZLUQPS,Queen's Park Underground Station,tube,51.534158,-0.204574,1.26,True,THU,03:06
-940GZZLUQWY,Queensway Underground Station,tube,51.510312,-0.187152,1.9,True,THU,03:06
-940GZZLURBG,Redbridge Underground Station,tube,51.576243,0.04536,0.06,True,THU,03:06
-940GZZLURGP,Regent's Park Underground Station,tube,51.523344,-0.146444,0.49,True,THU,03:06
-940GZZLURKW,Rickmansworth Underground Station,tube,51.640207,-0.473703,1.96,True,THU,03:06
-940GZZLURMD,Richmond Underground Station,tube,51.463237,-0.301336,0.0,True,THU,03:06
-940GZZLURSG,Ruislip Gardens Underground Station,tube,51.560736,-0.41071,0.0,True,THU,03:06
-940GZZLURSM,Ruislip Manor Underground Station,tube,51.573202,-0.412973,0.41,True,THU,03:06
-940GZZLURSP,Ruislip Underground Station,tube,51.571354,-0.421898,0.91,True,THU,03:06
-940GZZLURSQ,Russell Square Underground Station,tube,51.523073,-0.124285,0.0,True,THU,03:06
-940GZZLURVP,Ravenscourt Park Underground Station,tube,51.494122,-0.235881,,False,,
-940GZZLURVY,Roding Valley Underground Station,tube,51.617199,0.043647,1.18,True,THU,03:06
-940GZZLURYL,Rayners Lane Underground Station,tube,51.575147,-0.371127,0.15,True,THU,03:06
-940GZZLURYO,Royal Oak Underground Station,tube,51.519113,-0.188748,0.0,True,THU,03:06
-940GZZLUSBC,Shepherd's Bush (Central) Underground Station,tube,51.504376,-0.218813,0.87,True,THU,03:06
-940GZZLUSBM,Shepherd's Bush Market Underground Station,tube,51.505579,-0.226375,0.16,True,THU,03:06
-940GZZLUSEA,South Ealing Underground Station,tube,51.501003,-0.307424,0.71,True,THU,03:06
-940GZZLUSFB,Stamford Brook Underground Station,tube,51.494917,-0.245704,,False,,
-940GZZLUSFS,Southfields Underground Station,tube,51.445073,-0.206602,0.0,True,THU,03:06
-940GZZLUSGN,Stepney Green Underground Station,tube,51.521858,-0.046596,4.25,True,THU,03:06
-940GZZLUSGP,Stonebridge Park Underground Station,tube,51.543959,-0.275892,0.25,True,THU,03:06
-940GZZLUSGT,Southgate Underground Station,tube,51.632315,-0.127816,1.72,True,THU,03:06
-940GZZLUSHH,South Harrow Underground Station,tube,51.564888,-0.352492,0.17,True,THU,03:06
+940GZZLUPKR,Park Royal Underground Station,tube,51.527123,-0.284341,14.82,True,THU,08:11
+940GZZLUPLW,Plaistow Underground Station,tube,51.531341,0.017451,25.14,True,THU,08:11
+940GZZLUPNR,Pinner Underground Station,tube,51.592901,-0.381161,31.94,True,THU,08:11
+940GZZLUPRD,Preston Road Underground Station,tube,51.571972,-0.295107,28.05,True,THU,08:11
+940GZZLUPSG,Parsons Green Underground Station,tube,51.475277,-0.20117,58.26,True,THU,08:11
+940GZZLUPVL,Perivale Underground Station,tube,51.536717,-0.323446,32.48,True,THU,08:11
+940GZZLUPYB,Putney Bridge Underground Station,tube,51.468262,-0.208731,39.8,True,THU,08:11
+940GZZLUQBY,Queensbury Underground Station,tube,51.594188,-0.286219,19.86,True,THU,08:11
+940GZZLUQPS,Queen's Park Underground Station,tube,51.534158,-0.204574,46.93,True,THU,08:11
+940GZZLUQWY,Queensway Underground Station,tube,51.510312,-0.187152,24.85,True,THU,08:11
+940GZZLURBG,Redbridge Underground Station,tube,51.576243,0.04536,17.06,True,THU,08:11
+940GZZLURGP,Regent's Park Underground Station,tube,51.523344,-0.146444,12.74,True,THU,08:11
+940GZZLURKW,Rickmansworth Underground Station,tube,51.640207,-0.473703,29.17,True,THU,08:11
+940GZZLURMD,Richmond Underground Station,tube,51.463237,-0.301336,41.2,True,THU,08:11
+940GZZLURSG,Ruislip Gardens Underground Station,tube,51.560736,-0.41071,44.5,True,THU,08:11
+940GZZLURSM,Ruislip Manor Underground Station,tube,51.573202,-0.412973,32.09,True,THU,08:11
+940GZZLURSP,Ruislip Underground Station,tube,51.571354,-0.421898,23.07,True,THU,08:11
+940GZZLURSQ,Russell Square Underground Station,tube,51.523073,-0.124285,20.52,True,THU,08:11
+940GZZLURVP,Ravenscourt Park Underground Station,tube,51.494122,-0.235881,23.39,True,THU,08:11
+940GZZLURVY,Roding Valley Underground Station,tube,51.617199,0.043647,3.66,True,THU,08:11
+940GZZLURYL,Rayners Lane Underground Station,tube,51.575147,-0.371127,39.89,True,THU,08:11
+940GZZLURYO,Royal Oak Underground Station,tube,51.519113,-0.188748,30.09,True,THU,08:11
+940GZZLUSBC,Shepherd's Bush (Central) Underground Station,tube,51.504376,-0.218813,34.46,True,THU,08:11
+940GZZLUSBM,Shepherd's Bush Market Underground Station,tube,51.505579,-0.226375,26.04,True,THU,08:11
+940GZZLUSEA,South Ealing Underground Station,tube,51.501003,-0.307424,16.31,True,THU,08:11
+940GZZLUSFB,Stamford Brook Underground Station,tube,51.494917,-0.245704,32.95,True,THU,08:11
+940GZZLUSFS,Southfields Underground Station,tube,51.445073,-0.206602,35.51,True,THU,08:11
+940GZZLUSGN,Stepney Green Underground Station,tube,51.521858,-0.046596,39.89,True,THU,08:11
+940GZZLUSGP,Stonebridge Park Underground Station,tube,51.543959,-0.275892,47.81,True,THU,08:11
+940GZZLUSGT,Southgate Underground Station,tube,51.632315,-0.127816,25.46,True,THU,08:11
+940GZZLUSHH,South Harrow Underground Station,tube,51.564888,-0.352492,21.51,True,THU,08:11
 940GZZLUSJP,St. James's Park Underground Station,tube,51.499544,-0.133608,,False,,
-940GZZLUSJW,St. John's Wood Underground Station,tube,51.534521,-0.173948,0.44,True,THU,03:06
-940GZZLUSKS,South Kensington Underground Station,tube,51.494094,-0.174138,1.8,True,THU,03:06
-940GZZLUSKT,South Kenton Underground Station,tube,51.570232,-0.308433,0.0,True,THU,03:06
-940GZZLUSKW,Stockwell Underground Station,tube,51.472184,-0.122644,0.28,True,THU,03:06
-940GZZLUSNB,Snaresbrook Underground Station,tube,51.580678,0.02144,0.0,True,THU,03:06
-940GZZLUSPU,St. Paul's Underground Station,tube,51.514936,-0.097567,0.0,True,THU,03:06
-940GZZLUSRP,South Ruislip Underground Station,tube,51.556853,-0.398915,0.6,True,THU,03:06
-940GZZLUSSQ,Sloane Square Underground Station,tube,51.49227,-0.156377,0.09,True,THU,03:06
-940GZZLUSTD,Stratford Underground Station,tube,51.541806,-0.003458,0.82,True,THU,03:06
-940GZZLUSTM,Stanmore Underground Station,tube,51.619839,-0.303266,0.29,True,THU,03:06
-940GZZLUSUH,Sudbury Hill Underground Station,tube,51.556946,-0.336435,0.18,True,THU,03:06
-940GZZLUSUT,Sudbury Town Underground Station,tube,51.550815,-0.315745,0.0,True,THU,03:06
+940GZZLUSJW,St. John's Wood Underground Station,tube,51.534521,-0.173948,22.8,True,THU,08:11
+940GZZLUSKS,South Kensington Underground Station,tube,51.494094,-0.174138,37.44,True,THU,08:11
+940GZZLUSKT,South Kenton Underground Station,tube,51.570232,-0.308433,35.38,True,THU,08:11
+940GZZLUSKW,Stockwell Underground Station,tube,51.472184,-0.122644,54.15,True,THU,08:11
+940GZZLUSNB,Snaresbrook Underground Station,tube,51.580678,0.02144,17.33,True,THU,08:11
+940GZZLUSPU,St. Paul's Underground Station,tube,51.514936,-0.097567,33.13,True,THU,08:11
+940GZZLUSRP,South Ruislip Underground Station,tube,51.556853,-0.398915,25.47,True,THU,08:11
+940GZZLUSSQ,Sloane Square Underground Station,tube,51.49227,-0.156377,39.91,True,THU,08:11
+940GZZLUSTD,Stratford Underground Station,tube,51.541806,-0.003458,36.9,True,THU,08:11
+940GZZLUSTM,Stanmore Underground Station,tube,51.619839,-0.303266,36.58,True,THU,08:11
+940GZZLUSUH,Sudbury Hill Underground Station,tube,51.556946,-0.336435,14.23,True,THU,08:11
+940GZZLUSUT,Sudbury Town Underground Station,tube,51.550815,-0.315745,16.16,True,THU,08:11
 940GZZLUSVS,Seven Sisters Underground Station,tube,51.58333,-0.072584,,False,,
-940GZZLUSWC,Swiss Cottage Underground Station,tube,51.543681,-0.174894,0.35,True,THU,03:06
-940GZZLUSWF,South Woodford Underground Station,tube,51.591907,0.027338,0.5,True,THU,03:06
-940GZZLUSWK,Southwark Underground Station,tube,51.50427,-0.105331,0.11,True,THU,03:06
-940GZZLUSWN,South Wimbledon Underground Station,tube,51.415309,-0.192005,0.54,True,THU,03:06
-940GZZLUTAW,Totteridge & Whetstone Underground Station,tube,51.630597,-0.17921,1.25,True,THU,03:06
-940GZZLUTBC,Tooting Bec Underground Station,tube,51.435678,-0.159736,0.91,True,THU,03:06
-940GZZLUTBY,Tooting Broadway Underground Station,tube,51.42763,-0.168374,0.15,True,THU,03:06
-940GZZLUTCR,Tottenham Court Road Underground Station,tube,51.516426,-0.13041,0.45,True,THU,03:06
-940GZZLUTFP,Tufnell Park Underground Station,tube,51.556822,-0.138433,0.65,True,THU,03:06
-940GZZLUTHB,Theydon Bois Underground Station,tube,51.671759,0.103085,,False,,
-940GZZLUTMH,Tottenham Hale Underground Station,tube,51.588108,-0.060241,0.27,True,THU,03:06
-940GZZLUTMP,Temple Underground Station,tube,51.511006,-0.11426,0.0,True,THU,03:06
-940GZZLUTNG,Turnham Green Underground Station,tube,51.495148,-0.254555,0.16,True,THU,03:06
-940GZZLUTPN,Turnpike Lane Underground Station,tube,51.590272,-0.102953,2.37,True,THU,03:06
-940GZZLUTWH,Tower Hill Underground Station,tube,51.509971,-0.076546,0.21,True,THU,03:06
-940GZZLUUPB,Upminster Bridge Underground Station,tube,51.55856,0.235809,,False,,
-940GZZLUUPK,Upton Park Underground Station,tube,51.53534,0.035263,0.05,True,THU,03:06
-940GZZLUUPM,Upminster Underground Station,tube,51.559063,0.250882,0.0,True,THU,03:06
-940GZZLUUPY,Upney Underground Station,tube,51.538372,0.10153,0.22,True,THU,03:06
-940GZZLUUXB,Uxbridge Underground Station,tube,51.546565,-0.477949,2.04,True,THU,03:06
-940GZZLUVIC,Victoria Underground Station,tube,51.496359,-0.143102,0.49,True,THU,03:06
-940GZZLUVXL,Vauxhall Underground Station,tube,51.485743,-0.124204,0.27,True,THU,03:06
-940GZZLUWAF,Watford Underground Station,tube,51.657446,-0.417377,0.74,True,THU,03:06
-940GZZLUWBN,West Brompton Underground Station,tube,51.487268,-0.195599,0.0,True,THU,03:06
-940GZZLUWCY,White City Underground Station,tube,51.511959,-0.224297,0.68,True,THU,03:06
-940GZZLUWFN,West Finchley Underground Station,tube,51.609426,-0.188362,0.06,True,THU,03:06
-940GZZLUWHM,West Ham Underground Station,tube,51.528136,0.005055,0.58,True,THU,03:06
-940GZZLUWHP,West Hampstead Underground Station,tube,51.546638,-0.191059,1.52,True,THU,03:06
-940GZZLUWHW,West Harrow Underground Station,tube,51.57971,-0.3534,2.02,True,THU,03:06
-940GZZLUWIG,Willesden Green Underground Station,tube,51.549146,-0.221537,0.05,True,THU,03:06
-940GZZLUWIM,Wimbledon Underground Station,tube,51.421207,-0.206573,0.85,True,THU,03:06
-940GZZLUWIP,Wimbledon Park Underground Station,tube,51.434573,-0.199719,2.88,True,THU,03:06
+940GZZLUSWC,Swiss Cottage Underground Station,tube,51.543681,-0.174894,39.2,True,THU,08:11
+940GZZLUSWF,South Woodford Underground Station,tube,51.591907,0.027338,29.86,True,THU,08:11
+940GZZLUSWK,Southwark Underground Station,tube,51.50427,-0.105331,35.3,True,THU,08:11
+940GZZLUSWN,South Wimbledon Underground Station,tube,51.415309,-0.192005,36.96,True,THU,08:11
+940GZZLUTAW,Totteridge & Whetstone Underground Station,tube,51.630597,-0.17921,33.46,True,THU,08:11
+940GZZLUTBC,Tooting Bec Underground Station,tube,51.435678,-0.159736,46.36,True,THU,08:11
+940GZZLUTBY,Tooting Broadway Underground Station,tube,51.42763,-0.168374,72.3,True,THU,08:11
+940GZZLUTCR,Tottenham Court Road Underground Station,tube,51.516426,-0.13041,31.89,True,THU,08:11
+940GZZLUTFP,Tufnell Park Underground Station,tube,51.556822,-0.138433,30.28,True,THU,08:11
+940GZZLUTHB,Theydon Bois Underground Station,tube,51.671759,0.103085,29.99,True,THU,08:11
+940GZZLUTMH,Tottenham Hale Underground Station,tube,51.588108,-0.060241,45.31,True,THU,08:11
+940GZZLUTMP,Temple Underground Station,tube,51.511006,-0.11426,24.31,True,THU,08:11
+940GZZLUTNG,Turnham Green Underground Station,tube,51.495148,-0.254555,29.88,True,THU,08:11
+940GZZLUTPN,Turnpike Lane Underground Station,tube,51.590272,-0.102953,38.55,True,THU,08:11
+940GZZLUTWH,Tower Hill Underground Station,tube,51.509971,-0.076546,37.24,True,THU,08:11
+940GZZLUUPB,Upminster Bridge Underground Station,tube,51.55856,0.235809,29.98,True,THU,08:11
+940GZZLUUPK,Upton Park Underground Station,tube,51.53534,0.035263,29.53,True,THU,08:11
+940GZZLUUPM,Upminster Underground Station,tube,51.559063,0.250882,29.55,True,THU,08:11
+940GZZLUUPY,Upney Underground Station,tube,51.538372,0.10153,29.03,True,THU,08:11
+940GZZLUUXB,Uxbridge Underground Station,tube,51.546565,-0.477949,27.62,True,THU,08:11
+940GZZLUVIC,Victoria Underground Station,tube,51.496359,-0.143102,46.76,True,THU,08:11
+940GZZLUVXL,Vauxhall Underground Station,tube,51.485743,-0.124204,51.46,True,THU,08:11
+940GZZLUWAF,Watford Underground Station,tube,51.657446,-0.417377,30.64,True,THU,08:11
+940GZZLUWBN,West Brompton Underground Station,tube,51.487268,-0.195599,18.25,True,THU,08:11
+940GZZLUWCY,White City Underground Station,tube,51.511959,-0.224297,14.85,True,THU,08:11
+940GZZLUWFN,West Finchley Underground Station,tube,51.609426,-0.188362,23.81,True,THU,08:11
+940GZZLUWHM,West Ham Underground Station,tube,51.528136,0.005055,61.5,True,THU,08:11
+940GZZLUWHP,West Hampstead Underground Station,tube,51.546638,-0.191059,46.74,True,THU,08:11
+940GZZLUWHW,West Harrow Underground Station,tube,51.57971,-0.3534,18.5,True,THU,08:11
+940GZZLUWIG,Willesden Green Underground Station,tube,51.549146,-0.221537,32.08,True,THU,08:11
+940GZZLUWIM,Wimbledon Underground Station,tube,51.421207,-0.206573,37.5,True,THU,08:11
+940GZZLUWIP,Wimbledon Park Underground Station,tube,51.434573,-0.199719,48.8,True,THU,08:11
 940GZZLUWJN,Willesden Junction Underground Station,tube,51.532259,-0.244283,,False,,
-940GZZLUWKA,Warwick Avenue Underground Station,tube,51.523263,-0.183783,0.54,True,THU,03:06
-940GZZLUWKN,West Kensington Underground Station,tube,51.490459,-0.206636,0.43,True,THU,03:06
-940GZZLUWLA,Wood Lane Underground Station,tube,51.509669,-0.22453,0.12,True,THU,03:06
-940GZZLUWLO,Waterloo Underground Station,tube,51.503299,-0.11478,0.36,True,THU,03:06
-940GZZLUWOF,Woodford Underground Station,tube,51.606899,0.03397,0.54,True,THU,03:06
-940GZZLUWOG,Wood Green Underground Station,tube,51.597479,-0.109886,0.18,True,THU,03:06
-940GZZLUWOP,Woodside Park Underground Station,tube,51.618014,-0.18542,0.0,True,THU,03:06
-940GZZLUWPL,Whitechapel Underground Station,tube,51.519518,-0.059971,0.29,True,THU,03:06
-940GZZLUWRP,West Ruislip Underground Station,tube,51.569688,-0.437886,1.52,True,THU,03:06
-940GZZLUWRR,Warren Street Underground Station,tube,51.524951,-0.138321,0.73,True,THU,03:06
-940GZZLUWSD,Wanstead Underground Station,tube,51.575501,0.028527,2.04,True,THU,03:06
-940GZZLUWSM,Westminster Underground Station,tube,51.50132,-0.124861,0.26,True,THU,03:06
-940GZZLUWSP,Westbourne Park Underground Station,tube,51.52111,-0.201065,0.0,True,THU,03:06
-940GZZLUWTA,West Acton Underground Station,tube,51.518001,-0.28098,1.18,True,THU,03:06
-940GZZLUWWL,Walthamstow Central Underground Station,tube,51.582965,-0.019885,1.88,True,THU,03:06
-940GZZLUWYC,Wembley Central Underground Station,tube,51.552304,-0.296852,0.11,True,THU,03:06
-940GZZLUWYP,Wembley Park Underground Station,tube,51.563198,-0.279262,0.0,True,THU,03:06
-940GZZNEUGST,Nine Elms Underground Station,tube,51.479912,-0.128476,1.13,True,THU,03:06
+940GZZLUWKA,Warwick Avenue Underground Station,tube,51.523263,-0.183783,34.49,True,THU,08:11
+940GZZLUWKN,West Kensington Underground Station,tube,51.490459,-0.206636,32.14,True,THU,08:11
+940GZZLUWLA,Wood Lane Underground Station,tube,51.509669,-0.22453,17.79,True,THU,08:11
+940GZZLUWLO,Waterloo Underground Station,tube,51.503299,-0.11478,60.37,True,THU,08:11
+940GZZLUWOF,Woodford Underground Station,tube,51.606899,0.03397,49.24,True,THU,08:11
+940GZZLUWOG,Wood Green Underground Station,tube,51.597479,-0.109886,17.23,True,THU,08:11
+940GZZLUWOP,Woodside Park Underground Station,tube,51.618014,-0.18542,39.16,True,THU,08:11
+940GZZLUWPL,Whitechapel Underground Station,tube,51.519518,-0.059971,44.94,True,THU,08:11
+940GZZLUWRP,West Ruislip Underground Station,tube,51.569688,-0.437886,30.88,True,THU,08:11
+940GZZLUWRR,Warren Street Underground Station,tube,51.524951,-0.138321,46.92,True,THU,08:11
+940GZZLUWSD,Wanstead Underground Station,tube,51.575501,0.028527,34.25,True,THU,08:11
+940GZZLUWSM,Westminster Underground Station,tube,51.50132,-0.124861,36.97,True,THU,08:11
+940GZZLUWSP,Westbourne Park Underground Station,tube,51.52111,-0.201065,24.46,True,THU,08:11
+940GZZLUWTA,West Acton Underground Station,tube,51.518001,-0.28098,22.1,True,THU,08:11
+940GZZLUWWL,Walthamstow Central Underground Station,tube,51.582965,-0.019885,35.91,True,THU,08:11
+940GZZLUWYC,Wembley Central Underground Station,tube,51.552304,-0.296852,13.54,True,THU,08:11
+940GZZLUWYP,Wembley Park Underground Station,tube,51.563198,-0.279262,0.13,True,THU,08:11
+940GZZNEUGST,Nine Elms Underground Station,tube,51.479912,-0.128476,34.6,True,THU,08:11

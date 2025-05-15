@@ -5,22 +5,39 @@ import pydeck as pdk
 
 
 def render_top_10_live():
-    st.subheader("Top 10 Busiest Stations by Live Crowding %")
+    st.subheader("Live Crowding Analysis")
 
     # SQL query for top 10 live crowding stations
     query = """
         SELECT name, live_crowding_percentage
         FROM c12de.nav_stations
         WHERE live_crowding_percentage IS NOT NULL
-        ORDER BY live_crowding_percentage DESC
-        LIMIT 10
     """
-    top10_live_df = fetch_db_data(query)
-    top10_live_df["rank"] = range(1, 11)
-    top10_live_df = top10_live_df
+    live_crowding_df = fetch_db_data(query)
+
+    sort_options = ["Top 10 Busiest Stations", "Top 10 Least Crowded Stations"]
+    sort_order = st.segmented_control(
+        "",
+        sort_options,
+        default="Top 10 Busiest Stations"
+        )
+    if sort_order == "Top 10 Busiest Stations":
+        sorted_df = live_crowding_df.sort_values(
+            by="live_crowding_percentage",
+            ascending=False
+            ).head(10)
+        bar_title = "Top 10 Busiest Stations"
+    else:
+        sorted_df = live_crowding_df.sort_values(
+            by="live_crowding_percentage",
+            ascending=True
+            ).head(10)
+        bar_title = "Top 10 Least Crowded Stations"
+
+    sorted_df["rank"] = range(1, 11)
 
     st.dataframe(
-        top10_live_df,
+        sorted_df,
         hide_index=True,
         column_config={
             "rank": st.column_config.NumberColumn("Rank"),
@@ -37,7 +54,7 @@ def render_top_10_live():
 
     # top 10 live crowding bar chart
     fig = px.bar(
-        top10_live_df,
+        sorted_df,
         x="live_crowding_percentage",
         y="name",
         orientation="h",
@@ -49,12 +66,13 @@ def render_top_10_live():
     fig.update_layout(
         yaxis=dict(autorange="reversed"),
         height=500,
-        title="Top 10 Busiest Stations",
+        title=bar_title,
     )
 
     st.plotly_chart(fig, use_container_width=True)
 
     st.divider()
+
     # Map plot
     st.subheader("Live Map of Crowding")
 
@@ -103,7 +121,7 @@ def render_top_10_live():
     view_state = pdk.ViewState(
         latitude=location_df["lat"].mean(),
         longitude=location_df["lon"].mean(),
-        zoom=11,
+        zoom=10,
         pitch=60,
     )
 
