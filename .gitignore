@@ -2,6 +2,7 @@
 
 notebooks/
 temp/
+ui/pages/components.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
