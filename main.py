@@ -1,6 +1,6 @@
 import streamlit as st
 from ui.pages.landing_page import render_landing_page
-from ui.pages.overview import render_overview
+from ui.pages.overview import render_top_10_live
 from ui.pages.station_insights import render_station_insights
 from ui.pages.components import render_components
 from etl.load.load import fetch_db_data
@@ -21,7 +21,7 @@ elif st.session_state.page == "main":
     st.sidebar.title("Navigation")
     st.sidebar.divider()
     pages = {
-        "Overview": render_overview,
+        "Top 10 Busiest Stations (Live)": render_top_10_live,
         "Crowding by Station": render_station_insights,
         "Components": render_components
     }
