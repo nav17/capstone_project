@@ -6,7 +6,7 @@ with open("requirements.txt") as f:
 
 setup(
     name="nav_capstone_project",
-    version="0.1.1",
+    version="1.0.1",
     description=("An ETL project for extracting, transforming, and loading data."),
     author="Navdip Narotra",
     author_email="navdip.n@gmail.com",
